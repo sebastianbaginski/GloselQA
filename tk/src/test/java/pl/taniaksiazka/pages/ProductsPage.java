@@ -25,6 +25,8 @@ public class ProductsPage {
     @FindBy (className = "dialog-close-btn")
     private WebElement newsletter;
 
+    @FindBy (xpath = "//button[@class='add-to-cart btn-default']")
+    private WebElement clickBuy;
     @FindBy(xpath = "//*[@id='AddToCartBox']/div/div[3]/form/button")
     private WebElement addToCart;
 
@@ -35,7 +37,7 @@ public class ProductsPage {
 
     public AddToCartPage chooseProduct() {
         addProductToCartBtn.click();
-        addToCart.click();
+        clickBuy.click();
         return new AddToCartPage(driver);
     }
     public AddToCartPage chooseProduct2() {

@@ -107,7 +107,7 @@ public class BuyProductTest extends BaseTest {
                     .goToCart()
                     .doNotCombineOrders4(i)
                     .chooseOrderAndGoAddressDataPage(i)
-                    .goToSummaryPage()
+                    .chosePointPoczta()
                     .acceptAll(homePageURL)
                     .getResult();
 
@@ -202,14 +202,14 @@ public class BuyProductTest extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.closeCookieBar();
 
-        for (int i = 3; i < 4; i++) {
+        for (int i = 4; i < 5; i++) {
 
             String buyResult = new HomePage(driver)
                     .hoverToCategory(driver)
                     .chooseBooksCategory(driver)
                     .chooseProduct()
                     .goToCart()
-                    .doNotCombineOrders4(i)
+                    .doNotCombineOrders5(i)
                     .chooseOrderAndGoAddressDataPagePaymentAdvance(i)
                     .goToSummaryPageNoAccount()
                     .acceptAll(homePageURL)
