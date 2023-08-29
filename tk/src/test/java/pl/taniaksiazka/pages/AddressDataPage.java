@@ -47,6 +47,8 @@ public class AddressDataPage {
     private WebElement searchPoint;
     @FindBy(xpath = "//div[contains(@style, 'width: 56px; height: 60px;')]")
     private WebElement mapPoint;
+    @FindBy(xpath = "//div[contains(@style, 'width: 48px; height: 60px;')]")
+    private WebElement mapPoint2;
     @FindBy(css = "a.btn.btn-primary.btn-sm.display-block.select-point")
     private WebElement chosePointMap;
     @FindBy(id = "shipping-points-search-submit")
@@ -113,6 +115,23 @@ public class AddressDataPage {
 
     }
 
+    public SummaryPage chosePointPoczta() throws InterruptedException {
+        searchPoint.clear();
+        Thread.sleep(300);
+        searchPoint.sendKeys("Białystok");
+        Thread.sleep(300);
+        getSearchPoint.click();
+        Thread.sleep(2000);
+        jsExecutor.executeScript("arguments[0].click();", mapPoint2);
+        Thread.sleep(2000);
+        chosePointMap.click();
+        Thread.sleep(2000);
+        nextButton.click();
+
+        return new SummaryPage(driver);
+
+    }
+
 
 
 
@@ -122,10 +141,10 @@ public class AddressDataPage {
         Thread.sleep(500);
         setLastName.sendKeys("Tester");
         Thread.sleep(500);
-       /* setAddres.sendKeys("Sezamkowa 2/4");
+         setAddres.sendKeys("Sezamkowa 2/4");
         Thread.sleep(500);
         setZipCode.sendKeys(("15-054"));
-        setCity.sendKeys("Białystok");*/
+        setCity.sendKeys("Białystok");
         setPhone.sendKeys("577-281-091");
         setEmail.sendKeys("damian.mucus+test7@arete33.pl");
         checkRegisterAgree.click();

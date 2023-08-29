@@ -11,5 +11,10 @@
         <module name="bee" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bee" target="1.8" />
+      <module name="czarymary" target="1.8" />
+      <module name="taniaksiazka" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
