@@ -12,8 +12,13 @@ public class HomePage {
     protected WebDriver driver;
     @FindBy(className = "user-not-logged")
     private WebElement userBox;
-    @FindBy(id = "CookieX")
+    @FindBy(id = "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll")
     private WebElement cookieCloseButton;
+
+    @FindBy (className = "ins-close-button")
+    private WebElement closeJebanyPopu;
+    @FindBy (id = "wrap-close-button-1454703513202")
+    private WebElement reklama1;
     @FindBy(id = "inputSearch")
     private WebElement inputSearch;
     @FindBy(xpath = "//button[contains(text(),'Szukaj')]")
@@ -26,7 +31,7 @@ public class HomePage {
     private WebElement categoryButton;
     /* @FindBy(partialLinkText = "Beletrystyka")
      private WebElement booksButton;*/
-    @FindBy(id = "mcct-540")
+    @FindBy(id = "mcct-14141")
     private WebElement booksButton;
     @FindBy(id = "mcct-5249")
     private WebElement booksButton2;
@@ -34,6 +39,7 @@ public class HomePage {
     private WebElement ebooksButton;
     @FindBy(id = "inputSearch")
     private WebElement searchEbook;
+
 
     @FindBy(tagName = "html")
     private WebElement htmlE;

@@ -9,7 +9,7 @@ import pl.bee.utils.SeleniumHelper;
 
 public class SearchedPage {
 
-    @FindBy(xpath = "//span[contains(text(),'znaleziono')]")
+    @FindBy(xpath = "//span[contains(text(),'Jest')]")
     private WebElement result;
 
 

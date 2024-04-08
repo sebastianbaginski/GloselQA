@@ -9,6 +9,11 @@ import pl.bee.utils.SeleniumHelper;
 
 public class AddToCartPage {
 
+
+
+    @FindBy(xpath = "//div[@id='wrap-close-button-1454703513202']//span[@class='ins-close-button']")
+    private WebElement closeButton;
+
     @FindBy(className = "shopping_cart")
     private WebElement goToCartButton;
 

@@ -14,7 +14,7 @@ public class AccountToRegister {
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
     String timestamp = LocalDateTime.now().format(formatter);
-    private String email = "damiantester" + timestamp  + "@tel.bee.pl";
+    private String email = "damiantester" + timestamp  + "@arete33.pl";
     private String pass = "testerzy123";
     private String confPass = "testerzy123";
 

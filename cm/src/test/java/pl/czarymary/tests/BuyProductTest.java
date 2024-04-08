@@ -40,7 +40,7 @@ public class BuyProductTest extends BaseTest {
                 .goToCartPage()
                 .chooseShip(1)
                 .goToAddressDataPage()
-                .chosePointOrlen()
+                .goToSummaryPage("")
                 .goToSuccessPage()
                 .getH1();
 

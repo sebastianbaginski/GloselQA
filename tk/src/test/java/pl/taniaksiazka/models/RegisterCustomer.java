@@ -13,7 +13,7 @@ public class RegisterCustomer {
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
     String timestamp = LocalDateTime.now().format(formatter);
-    private String email = "DamianTester1" + timestamp + "@o2.pl";
+    private String email = "DamianTester1" + timestamp + "@arete33.pl";
     private String password = "testerzy123";
 
     public String getFirstName() {

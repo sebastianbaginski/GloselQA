@@ -47,8 +47,10 @@ public class AddressDataPage {
     private WebElement searchPoint;
     @FindBy(xpath = "//div[contains(@style, 'width: 56px; height: 60px;')]")
     private WebElement mapPoint;
-    @FindBy(xpath = "//div[contains(@style, 'width: 48px; height: 60px;')]")
+    @FindBy(xpath = "//div[contains(@style, 'width: 47px; height: 60px;')]")
     private WebElement mapPoint2;
+    @FindBy(xpath = "//div[contains(@style, 'user-select: none; border:')]")
+    private WebElement mapPoint22;
     @FindBy(css = "a.btn.btn-primary.btn-sm.display-block.select-point")
     private WebElement chosePointMap;
     @FindBy(id = "shipping-points-search-submit")

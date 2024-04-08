@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8664caf-e1b3-4be5-8f03-da23d7c1bdf2" name="Changes" comment="" />
+    <list default="true" id="d8664caf-e1b3-4be5-8f03-da23d7c1bdf2" name="Changes" comment="Poprawki z godziny 9:57 - Pozdrawiam Damian Mucuś">
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/models/AccountToRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/models/AccountToRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddToCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddToCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddressDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddressDataPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/SearchedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/SearchedPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/BuyProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/BuyProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azn/src/test/resources/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/resources/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/models/RegisterCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/models/RegisterCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/tests/BuyProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/tests/BuyProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/models/RegisterCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/models/RegisterCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/AddressDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/AddressDataPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/WishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/WishListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/tests/BuyProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/tests/BuyProductTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,22 +29,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2UeLEpl09BqWg0o2LLG3LGJCjRo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -9,7 +9,7 @@ import pl.bee.utils.SeleniumHelper;
 
 public class AddressDataPage {
 
-    @FindBy(xpath = "//div[contains(text(),'Wszelkie prawa zastrzeżone 2023')]")
+    @FindBy(xpath = "//div[contains(text(),'Wszelkie prawa zastrzeżone 2024')]")
     private WebElement footer;
 
     @FindBy(id = "checkout_next_step_btn")

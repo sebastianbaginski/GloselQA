@@ -28,10 +28,10 @@ public class HomePage {
    /* @FindBy(id = "main-menu-9000")
     private WebElement menuItem;*/
 
-    @FindBy(id = "menu-item-72")
+    @FindBy(id = "menu-item-66")
     private WebElement menuItem;
 
-    @FindBy(id = "menu-item-63")
+    @FindBy(id = "menu-item-31")
     private WebElement menuItem2;
 
     @FindBy(id = "menu-item-67")

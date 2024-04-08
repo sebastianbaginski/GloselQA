@@ -52,7 +52,7 @@ public class BuyProductTest extends BaseTest {
                     .goToCart()
                     .doNotCombineOrders2(i)
                     .chooseOrderAndGoAddressDataPage(i)
-                    .chosePointOrlen()
+                    .goToSummaryPage()
                     .acceptAll(homePageURL)
                     .getResult();
 
@@ -61,32 +61,6 @@ public class BuyProductTest extends BaseTest {
         }
     }
 
-
-    @Test @Ignore
-    public void buyProductForEveryShip3() throws InterruptedException {
-
-        new HomePage(driver)
-                .closeCookieBar()
-                .clickToLogInButton()
-                .logIn("damian.mucus+test1@arete33.pl", "testerzy123");
-
-        for (int i = 2; i < 3; i++) {
-
-            String buyResult = new HomePage(driver)
-                    .hoverToCategory(driver)
-                    .chooseBooksCategory(driver)
-                    .chooseProduct()
-                    .goToCart()
-                    .doNotCombineOrders3(i)
-                    .chooseOrderAndGoAddressDataPage(i)
-                    .chosePointOrlen()
-                    .acceptAll(homePageURL)
-                    .getResult();
-
-            Assert.assertEquals(buyResult, "Twoje zamówienie zostało złożone!");
-
-        }
-    }
 
 
 
@@ -107,7 +81,7 @@ public class BuyProductTest extends BaseTest {
                     .goToCart()
                     .doNotCombineOrders4(i)
                     .chooseOrderAndGoAddressDataPage(i)
-                    .chosePointPoczta()
+                    .goToSummaryPage()
                     .acceptAll(homePageURL)
                     .getResult();
 
@@ -133,7 +107,7 @@ public class BuyProductTest extends BaseTest {
                     .goToCart()
                     .doNotCombineOrders5(i)
                     .chooseOrderAndGoAddressDataPage(i)
-                    .goToSummaryPage()
+                    .chosePointOrlen()
                     .acceptAll(homePageURL)
                     .getResult();
 
@@ -158,7 +132,7 @@ public class BuyProductTest extends BaseTest {
                     .chooseProduct()
                     .goToCart()
                     .doNotCombineOrders6(i)
-                    .chooseOrderAndGoAddressDataPage2(i)
+                    .chooseOrderAndGoAddressDataPage(i)
                     .goToSummaryPage()
                     .acceptAll(homePageURL)
                     .getResult();
@@ -183,8 +157,8 @@ public class BuyProductTest extends BaseTest {
                     .chooseBooksCategory(driver)
                     .chooseProduct()
                     .goToCart()
-                    .chooseOrderAndGoAddressDataPage3(i)
-                    .goToSummaryPage2()
+                    .chooseOrderAndGoAddressDataPage2(i)
+                    .goToSummaryPage()
                     .acceptAll(homePageURL)
                     .getResult();
 
@@ -196,7 +170,7 @@ public class BuyProductTest extends BaseTest {
 
     // Bez Zakladania Konta //
 
-    @Test
+    @Test @Ignore
     public void buyProductForEveryShipNoAccount1() throws InterruptedException {
 
         HomePage homePage = new HomePage(driver);

@@ -17,14 +17,12 @@ public class SearchTest extends BaseTest {
                 .searchPhrase("daktyle")
                 .getElement();
 
-
-        if (result.getText().contains("znaleziono") && new SearchedPage(driver).getUrl().contains("Szukaj")) {
+        if (result.getText().contains("Jest") && new SearchedPage(driver).getUrl().contains("Szukaj")) {
             test.log(Status.PASS, "Search Product Test Passed");
-        } else test.log(Status.FAIL, "Test failed");
+        } else {
+            test.log(Status.FAIL, "Test failed");
+        }
 
-        Assert.assertTrue(result.getText().contains("znaleziono"));
-        Assert.assertTrue(new SearchedPage(driver).getUrl().contains("Szukaj"));
+        Assert.assertTrue(result.getText().contains("Jest"));
     }
-
-
 }

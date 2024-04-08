@@ -151,7 +151,7 @@ public class BuyProductTest extends BaseTest {
 
             String result = new CartPage(driver)
                     .goNext()
-                    .chosePointOrlen()
+                    .goToSummaryPage()
                     .goSuccessPage(homePageURL)
                     .checkResult();
 
@@ -222,13 +222,13 @@ public class BuyProductTest extends BaseTest {
                         .chooseItem3()
                         .goToNextPage()
                         .goToCart()
-                        .doNotCombineOrders4(i)
+                        .choosePoint()
                         .getShipMethodName(i);
 
                 String result = new CartPage(driver)
                         .goNext()
-                        .goToSummaryPage2()
-                        .goSuccessPage2(homePageURL)
+                        .goToSummaryPage()
+                        .goSuccessPage(homePageURL)
                         .checkResult();
 
 
@@ -254,12 +254,12 @@ public class BuyProductTest extends BaseTest {
 
                 homePage.closeCookieBar();
 
-        for (int i = 2; i < 3; i++) { // w i bylo 5, zmienione na 3 do testow //
+        for (int i = 4; i < 5; i++) { // w i bylo 5, zmienione na 3 do testow //
             String shipName = new HomePage(driver)
                     .chooseItem2()
                     .goToNextPage()
                     .goToCart()
-                    .doNotCombineOrders2(i)
+                    .doNotCombineOrders3(i)
                     .UchoPayment()
                     .getShipMethodName(i);
 

@@ -14,7 +14,7 @@ public class WishListPage {
     private WebElement nextBtn;
     @FindBy(xpath = "//label[contains(text(),'zaznacz')]")
     private WebElement deleteLink;
-    @FindBy(xpath = "//button[contains(text(),'usuń ze schowka')]")
+    @FindBy(css = "button[name='wishlistOperationType'][value='removeFromWishlist']")
     private WebElement deleteButton;
     @FindBy(xpath = "//h2[contains(text(),'Schowek jest pusty!')]")
     private WebElement result;
