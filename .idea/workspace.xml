@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8664caf-e1b3-4be5-8f03-da23d7c1bdf2" name="Changes" comment="Poprawki z godziny 9:57 - Pozdrawiam Damian Mucuś">
-      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/models/AccountToRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/models/AccountToRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddToCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddToCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddressDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/AddressDataPage.java" afterDir="false" />
+    <list default="true" id="d8664caf-e1b3-4be5-8f03-da23d7c1bdf2" name="Changes" comment="new">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/SearchedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/pages/SearchedPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/BuyProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/BuyProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/java/pl/bee/tests/SearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azn/src/test/resources/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/azn/src/test/resources/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/models/RegisterCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/models/RegisterCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/tests/BuyProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm/src/test/java/pl/czarymary/tests/BuyProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/models/RegisterCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/models/RegisterCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/AddressDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/AddressDataPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/WishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/pages/WishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/tests/BuyProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tk/src/test/java/pl/taniaksiazka/tests/BuyProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -48,6 +39,104 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
+  <component name="RunManager" selected="TestNG.BuyProductTest">
+    <configuration name="BuyProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.bee.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.bee.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.bee.tests.BuyProductTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyProductTest.buyProductForEveryShipMethod2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.bee.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.bee.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.bee.tests.BuyProductTest" />
+      <option name="METHOD_NAME" value="buyProductForEveryShipMethod2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyProductTest.buyProductForEveryShipMethod3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.bee.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.bee.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.bee.tests.BuyProductTest" />
+      <option name="METHOD_NAME" value="buyProductForEveryShipMethod3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyProductTest.buyProductForEveryShipMethod4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.bee.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.bee.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.bee.tests.BuyProductTest" />
+      <option name="METHOD_NAME" value="buyProductForEveryShipMethod4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.taniaksiazka.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taniaksiazka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.taniaksiazka.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.taniaksiazka.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BuyProductTest" />
+        <item itemvalue="TestNG.BuyProductTest.buyProductForEveryShipMethod4" />
+        <item itemvalue="TestNG.BuyProductTest.buyProductForEveryShipMethod2" />
+        <item itemvalue="TestNG.BuyProductTest.buyProductForEveryShipMethod3" />
+        <item itemvalue="TestNG.pl.taniaksiazka.tests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +146,29 @@
       <option name="presentableId" value="Default" />
       <updated>1693294991848</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1712569522581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712569522581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>

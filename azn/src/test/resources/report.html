@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Apr 8, 2024 07:39:04 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Apr 15, 2024 12:14:22 PM</span>
 				</a>
 			</li>
 			<li>
@@ -71,7 +71,8 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li class='divider'></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
@@ -121,7 +122,7 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -129,6 +130,20 @@
 			</div>
 		</div>
 		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>14</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
 		
 	</div>
 </div>
@@ -143,15 +158,320 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Buy Product for every shipping method</span>
-						<span class='test-time'>Apr 8, 2024 07:39:08 AM</span>
+						<span class='test-time'>Apr 15, 2024 12:14:29 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 8, 2024 07:39:08 AM</span>
-	<span class='label end-time'>Apr 8, 2024 07:39:08 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+	<span class='label start-time'>Apr 15, 2024 12:14:29 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:14:47 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 18s+547ms</span>
 </div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:14:47 PM</td>
+					<td class='step-details'>Bought for DPD Pickup punkt odbioru/automat paczkowy/Żabka (10,99 zł) correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:14:47 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Buy Product for every shipping method</span>
+						<span class='test-time'>Apr 15, 2024 12:14:52 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2024 12:14:52 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:15:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+174ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:15:09 PM</td>
+					<td class='step-details'>Bought for ORLEN Paczka odbiór w punkcie (9,99 zł) correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:15:09 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Buy Product for every shipping method</span>
+						<span class='test-time'>Apr 15, 2024 12:15:14 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2024 12:15:14 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:15:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+36ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:15:28 PM</td>
+					<td class='step-details'>Bought for Pocztex Kurier (19,99 zł) correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:15:28 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Buy Product for every shipping method</span>
+						<span class='test-time'>Apr 15, 2024 12:15:33 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2024 12:15:33 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:15:51 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+402ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:15:51 PM</td>
+					<td class='step-details'>Bought for Pocztex Kurier (19,99 zł) correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:15:51 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Buy Product for every shipping method</span>
+						<span class='test-time'>Apr 15, 2024 12:15:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2024 12:15:56 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:16:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 24s+894ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:16:20 PM</td>
+					<td class='step-details'>Bought for Odbiór w Pocztex Punkt, sklep Żabka (od 11,99 zł)  correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:16:20 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>Buy Product for every shipping method</span>
+						<span class='test-time'>Apr 15, 2024 12:16:23 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2024 12:16:23 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:16:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 28s+775ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:16:52 PM</td>
+					<td class='step-details'>Bought for Kurier miejski Nadajesz.pl - Białystok i okolice (14,99 zł 10,99 zł)
+         Wybierz miejscowość z listy
+            Białostoczek
+             Białystok
+             Ciasne
+             Dobrzyniewo Duże
+             Dobrzyniewo Kościelne
+             Fasty
+             Gniła
+             Grabówka
+             Halickie
+             Henrykowo
+             Protasy
+             Ignatki
+             Ignatki-osiedle
+             Izabelin
+             Jeroniki
+             Jurowce
+             Karakule
+             Kleosin
+             Klepacze
+             Krupniki
+             Księżyno
+             Księżyno-kolonia
+             Kuriany
+             Leńce
+             Lewickie
+             Niewodnica Nargilewska
+             Nowe Aleksandrowo
+             Nowodworce
+             Ogrodniczki
+             Oliszki
+             Olmonty
+             Osowicze
+             Porosły
+             Porosły Kolonia
+             Rafałówka
+             Sielachowskie
+             Sienkiewicze
+             Skrybicze
+             Sobolewo
+             Sochonie
+             Sowlany
+             Stanisławowo
+             Śródlesie
+             Turczyn
+             Wasilków
+             Zaścianki
+           correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:16:52 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>Buy Product for every shipping method</span>
+						<span class='test-time'>Apr 15, 2024 12:16:56 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Apr 15, 2024 12:16:56 PM</span>
+	<span class='label end-time'>Apr 15, 2024 12:17:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+164ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:17:21 PM</td>
+					<td class='step-details'>Bought for InPost Paczkomat® 24/7 (12,99 zł)  correctly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>12:17:21 PM</td>
+					<td class='step-details'>Buy product Test Passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 					</div>
 				</li>
 			</ul>
@@ -189,31 +509,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>14</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 8, 2024 07:39:04 AM</div>
+					<div class='panel-lead'>Apr 15, 2024 12:14:22 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 8, 2024 07:39:26 AM</div>
+			 		<div class='panel-lead'>Apr 15, 2024 12:17:21 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 22s+63ms</div>
+					<div class='panel-lead'>0h 2m 59s+216ms</div>
 				</div>
 			</div>
 		</div>
@@ -226,7 +546,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
+				passParent: 7,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
@@ -234,7 +554,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 0,
+				passChild: 14,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,

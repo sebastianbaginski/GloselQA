@@ -34,11 +34,13 @@ public class HomePage {
     @FindBy(id = "menu-item-31")
     private WebElement menuItem2;
 
-    @FindBy(id = "menu-item-67")
+    @FindBy(id = "menu-item-62")
     private WebElement menuItem3;
 
     @FindBy(className = "sbcat-linker")
     private WebElement subMenuItem;
+    @FindBy(id = "close-button-1454703513202")
+    private WebElement closeads;
 
     @FindBy(xpath = "//span[contains(text(), 'KONTAKT')]")
     private WebElement contactButton;
@@ -103,6 +105,8 @@ public class HomePage {
     public ProductsPage chooseItem3() {
 
         menuItem3.click();
+        SeleniumHelper.waitForVisibility(closeads,driver);
+        SeleniumHelper.executorClick(closeads,driver);
         return new ProductsPage(driver);
     }
 
